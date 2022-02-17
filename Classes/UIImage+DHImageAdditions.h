@@ -10,7 +10,7 @@
 
 @interface UIImage (DHImageUtils)
 
-+ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
++ (UIImage *)imageWithColor:(UIColor *)color withSize:(CGSize)size;
 
 @end
 

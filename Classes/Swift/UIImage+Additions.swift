@@ -3,7 +3,7 @@ import UIKit
 
 extension UIImage {
     
-    class func imageWithColor(color:UIColor, size:CGSize) -> UIImage? {
+    class func imageWithColor(color:UIColor, withSize:CGSize) -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
         let context = UIGraphicsGetCurrentContext()
         if context == nil {

@@ -209,12 +209,12 @@ extension UITableView {
         
         let headerRectSize = CGSize(width: self.bounds.size.width, height: self.rectForHeader(inSection: section).size.height)
         
-        return UIImage.imageWithColor(color: UIColor.clear, size:headerRectSize)
+        return UIImage.imageWithColor(color: UIColor.clear, withSize:headerRectSize)
     }
     
     func blankScreenshotOfFooterAtSection(section:Int) -> UIImage? {
         let footerRectSize = CGSize(width: self.bounds.size.width, height: self.rectForFooter(inSection: section).size.height)
-        return UIImage.imageWithColor(color: UIColor.clear, size:footerRectSize)
+        return UIImage.imageWithColor(color: UIColor.clear, withSize:footerRectSize)
     }
     
     var allSectionsIndexes : [Int]
