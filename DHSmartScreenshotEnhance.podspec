@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = 'https://github.com/connerwu/DHSmartScreenshot'
   s.license      = { :type => 'MIT'}
-  s.author       = { "David Hernandez" => "dav.viidd94@gmail.com" }
+  s.author       = { "David Hernandez" => "244295790@qq.com" }
   
   s.source       = { 
     :git => "https://github.com/connerwu/DHSmartScreenshot.git", 
