@@ -224,13 +224,13 @@
 - (UIImage *)blankScreenshotOfHeaderAtSection:(NSUInteger)section
 {
 	CGSize headerRectSize = CGSizeMake(self.bounds.size.width, [self rectForHeaderInSection:section].size.height);
-	return [UIImage imageWithColor:[UIColor clearColor] withSize:headerRectSize];
+	return [UIImage imageWithImageColor:[UIColor clearColor] imageSize:headerRectSize];
 }
 
 - (UIImage *)blankScreenshotOfFooterAtSection:(NSUInteger)section
 {
 	CGSize footerRectSize = CGSizeMake(self.bounds.size.width, [self rectForFooterInSection:section].size.height);
-	return [UIImage imageWithColor:[UIColor clearColor] withSize:footerRectSize];
+	return [UIImage imageWithImageColor:[UIColor clearColor] imageSize:footerRectSize];
 }
 
 #pragma mark - All Headers / Footers sections
